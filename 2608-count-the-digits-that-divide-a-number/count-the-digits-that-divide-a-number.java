@@ -11,7 +11,7 @@ class Solution {
             ans=ans/10;
         }
         return c;
-        
+
 
     }
 }
