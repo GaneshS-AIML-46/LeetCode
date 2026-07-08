@@ -13,9 +13,9 @@ class Solution {
 
      for(char ch='a';ch<='z';ch++)
      {
-        if(set.contains(ch) && set.contains((char)(ch-'a'+'A')))
+        if(set.contains(ch) && set.contains((char)(ch-'a'+'A')))//'b' - 'a' = 1   ;;;;;;;; 1 + 'A' = 'B'
         c++;
-        
+
 
      }
 
